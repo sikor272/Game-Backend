@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class Config {
     private String imageRegex = "jpeg|jpg|png";
-    private String imageDir = "D:/server_images/";
+    private String imageDir = "/";
 
     public String getImageRegex() {
         return imageRegex;
